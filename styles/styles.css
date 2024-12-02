@@ -1,10 +1,12 @@
 body
 {
     background-color: #0E1323;
+    min-height: 100vh;
+    min-width: 100%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 25%;
-    gap: 1rem;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 1.5rem;
    
 }
 
@@ -19,6 +21,29 @@ body
 .profile
 {
     background-color: #1C204B;
-
+    grid-row: 3 / 9;
+    grid-column: 3 / 6;
     border-radius: 15px;
+    position: relative;
+}
+
+.report
+{
+border-radius: 15px;
+position: absolute;
+height: 70%;
+width: 100%;
+background-color: #5747EA;
+}
+
+.jeremyImg
+{
+    height: 78px;
+    width: 78px;
+    border: solid white 3px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0.2rem 0.2rem  black);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }
