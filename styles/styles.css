@@ -1,8 +1,14 @@
 body
 {
     background-color: #0E1323;
-  
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:repeat(10, 100%);
+    gap: 1rem;
+   
 }
+
+
 
 .cardBg
 {
