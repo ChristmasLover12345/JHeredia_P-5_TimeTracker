@@ -34,6 +34,7 @@ position: absolute;
 height: 70%;
 width: 100%;
 background-color: #5747EA;
+padding: 2rem;
 }
 
 .jeremyImg
@@ -43,7 +44,7 @@ background-color: #5747EA;
     border: solid white 3px;
     border-radius: 50%;
     filter: drop-shadow(0 0.2rem 0.2rem  black);
-    position: absolute;
+    /* position: absolute;
     top: 2rem;
-    left: 2rem;
+    left: 2rem; */
 }
