@@ -82,3 +82,16 @@ function monthly()
 
 
 window.onload = daily()
+
+
+dailyBtn.addEventListener('click', function(){
+    daily()
+})
+
+weeklyBtn.addEventListener('click', function(){
+    weekly()
+})
+
+monthlyBtn.addEventListener('click', function(){
+    monthly()
+})
