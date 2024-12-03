@@ -10,7 +10,10 @@ body
    
 }
 
-
+@font-face {
+    font-family: rubikLight;
+    src: url(../assets/static/fonts/Rubik-Light.ttf);
+}
 
 .cardBg
 {
@@ -44,7 +47,21 @@ padding: 2rem;
     border: solid white 3px;
     border-radius: 50%;
     filter: drop-shadow(0 0.2rem 0.2rem  black);
-    /* position: absolute;
-    top: 2rem;
-    left: 2rem; */
+   
+}
+
+.report h6
+{
+    font-size: 15px;
+    color: #BBC0FF;
+    font-weight: 400;
+}
+
+.report h2
+{
+    font-family: rubikLight;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight:300 ;
+    
 }
