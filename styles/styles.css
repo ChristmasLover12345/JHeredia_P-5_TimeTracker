@@ -282,3 +282,188 @@ padding: 2rem;
     color: #BBC0FF;
 
 }
+
+
+
+/* tablet - small laptop */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+
+
+    .profile
+    {
+        background-color: #1C204B;
+        grid-row: 3 / 9;
+        grid-column: 3 / 6;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .work
+    {
+        position: relative;
+        grid-column: 6 / 9;
+        grid-row: 3 / 6;
+        background-color: #FF8B64;
+        border-radius: 15px;
+        
+    }
+    
+    .play
+    {
+        position: relative;
+        grid-column: 9 / 12;
+        grid-row: 3 / 6;
+        background-color: #55C2E6;
+        border-radius: 15px;
+        
+    }
+    
+    
+    .study
+    {
+        position: relative;
+        grid-column: 12 / 15;
+        grid-row: 3 / 6;
+        background-color: #FF5E7D;
+        border-radius: 15px; 
+    }
+    
+    .exercise
+    {
+        position: relative;
+        grid-column: 6 / 9;
+        grid-row: 6 / 9;
+        background-color: #4BCF82;
+        border-radius: 15px; 
+    }
+    
+    .social
+    {
+        position: relative;
+        grid-column: 9 / 12;
+        grid-row: 6 / 9;
+        background-color: #7335D2;
+        border-radius: 15px;
+    }
+    
+    .selfCare
+    {
+        position: relative;
+        grid-column: 12 / 15;
+        grid-row: 6 / 9;
+        background-color: #F1C75B;
+        border-radius: 15px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #workTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #workTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+    #playTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #playTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+    #studyTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #studyTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+    #exerciseTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #exerciseTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+    #socialTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #socialTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+    #selfCareTimeNow
+    {
+        font-size: 40px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+    }
+    
+    #selfCareTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+    
+    }
+    
+
+}
