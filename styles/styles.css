@@ -91,6 +91,11 @@ padding: 2rem;
     color: #FFFFFF;
 }
 
+.active
+{
+    color: #FFFFFF !important;
+}
+
 .work
 {
     position: relative;

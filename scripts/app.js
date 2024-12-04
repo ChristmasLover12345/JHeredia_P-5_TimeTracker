@@ -1,7 +1,9 @@
 let dailyBtn = document.getElementById('dailyBtn');
 let weeklyBtn = document.getElementById('weeklyBtn');
 let monthlyBtn = document.getElementById('monthlyBtn');
-
+let dailyP = document.getElementById('dailyP')
+let weeklyP = document.getElementById('weeklyP')
+let monthlyP = document.getElementById('monthlyP')
 
 let workTimeNow = document.getElementById('workTimeNow');
 let workTimePast = document.getElementById('workTimePast');
@@ -86,12 +88,23 @@ window.onload = daily()
 
 dailyBtn.addEventListener('click', function(){
     daily()
+    dailyP.classList.add("active");
+    weeklyP.classList.remove("active");
+    monthlyP.classList.remove("active");
+
 })
 
 weeklyBtn.addEventListener('click', function(){
     weekly()
+    dailyP.classList.remove("active");
+    weeklyP.classList.add("active");
+    monthlyP.classList.remove("active");
 })
 
 monthlyBtn.addEventListener('click', function(){
-    monthly()
+    monthly().then(
+    dailyP.classList.remove("active"),
+    weeklyP.classList.remove("active"),
+    monthlyP.classList.add("active")
+    )
 })
