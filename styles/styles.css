@@ -38,6 +38,7 @@ body
     grid-column: 3 / 6;
     border-radius: 15px;
     position: relative;
+    min-height: 490px;
 }
 
 .report
@@ -486,6 +487,8 @@ padding: 2rem;
         grid-column: 3 / 15;
         border-radius: 15px;
         position: relative;
+        min-height: 0;
+       
     }
 
     .work
@@ -495,6 +498,7 @@ padding: 2rem;
         grid-row: 6 / 8;
         background-color: #FF8B64;
         border-radius: 15px;
+        min-height: 130px;
         
     }
     
@@ -752,6 +756,7 @@ padding: 2rem;
     grid-column: 2 ;
     border-radius: 15px;
     position: relative;
+    min-height: 0;
 }
 
 
