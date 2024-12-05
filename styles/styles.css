@@ -196,11 +196,17 @@ padding: 2rem;
 .dotHover:hover
 {
     filter: brightness(5);
+   
+}
+
+.cardContent:has(.dotHover:hover)
+{
+    background-color: #1C204B;
 }
 
 #workTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }
@@ -215,7 +221,7 @@ padding: 2rem;
 
 #playTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }
@@ -230,7 +236,7 @@ padding: 2rem;
 
 #studyTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }
@@ -245,7 +251,7 @@ padding: 2rem;
 
 #exerciseTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }
@@ -260,7 +266,7 @@ padding: 2rem;
 
 #socialTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }
@@ -275,7 +281,7 @@ padding: 2rem;
 
 #selfCareTimeNow
 {
-    font-size: 56px;
+    font-size: 52px;
     font-family: rubikLight;
     color: #FFFFFF;
 }

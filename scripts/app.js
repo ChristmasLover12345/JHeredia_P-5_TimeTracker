@@ -88,23 +88,23 @@ window.onload = daily()
 
 dailyBtn.addEventListener('click', function(){
     daily()
-    dailyP.classList.add("active");
-    weeklyP.classList.remove("active");
-    monthlyP.classList.remove("active");
+    dailyP.classList.add("active")
+    weeklyP.classList.remove("active")
+    monthlyP.classList.remove("active")
 
 })
 
 weeklyBtn.addEventListener('click', function(){
     weekly()
-    dailyP.classList.remove("active");
-    weeklyP.classList.add("active");
-    monthlyP.classList.remove("active");
+    dailyP.classList.remove("active")
+    weeklyP.classList.add("active")
+    monthlyP.classList.remove("active")
 })
 
 monthlyBtn.addEventListener('click', function(){
-    monthly().then(
-    dailyP.classList.remove("active"),
-    weeklyP.classList.remove("active"),
+    monthly()
+    dailyP.classList.remove("active")
+    weeklyP.classList.remove("active")
     monthlyP.classList.add("active")
-    )
+    
 })
