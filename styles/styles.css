@@ -43,13 +43,13 @@ body
 
 .report
 {
-border-radius: 15px;
-position: absolute;
-top: 0;
-height: 70%;
-width: 100%;
-background-color: #5747EA;
-padding: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    height: 70%;
+    width: 100%;
+    background-color: #5747EA;
+    padding: 2rem;
 }
 
 .jeremyImg
@@ -306,13 +306,20 @@ padding: 2rem;
 @media (min-width: 992px) and (max-width: 1109px)
 {
 
+
+
     .report h2
-{
-    font-family: rubikLight;
-    font-size: 38px;
-    color: #FFFFFF;
-    font-weight:300 ;
-    
+    {
+        font-family: rubikLight;
+        font-size: 38px;
+        color: #FFFFFF;
+        font-weight:300 ;
+        
+    }
+
+    .pushDown
+    {
+        margin-bottom: 1.5rem;
 }
 
     #workTimeNow
@@ -406,15 +413,15 @@ padding: 2rem;
     }
 
     .selfPad
-{
-    padding-left: 0px;
-    padding-right: 0px;
-}
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-.selfEnd
-{
-    display: flex;
-    justify-content: end;
+    .selfEnd
+    {
+        display: flex;
+        justify-content: end;
 }
 
 }
@@ -424,61 +431,79 @@ padding: 2rem;
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-.pt-lg-4
-{
-    padding: 0;
-}
+    body
+    {
+        background-color: #0E1323;
+        min-height: 100vh;
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        gap: 1.5rem;
+       
+    }
+    
+    .textCenter
+    {
+        text-align: center;
+    }
 
-.report
-{
-display: flex;
-justify-content:space-evenly;
-border-radius: 15px;
-position: absolute;
-top: 0;
-height: 70%;
-width: 100%;
-background-color: #5747EA;
-padding: 2rem;
-}
+    .pt-lg-4
+    {
+        padding: 0;
+    }
+
+    .report
+    {
+        display: flex;
+        justify-content:space-evenly;
+        border-radius: 15px;
+        position: absolute;
+        top: 0;
+        height: 70%;
+        width: 100%;
+        background-color: #5747EA;
+        padding: 2rem;
+    }
 
 
-.jeremyImg
-{
-    height: 100px;
-    width: 100px;
-    border: solid white 3px;
-    border-radius: 50%;
-    filter: drop-shadow(0 0.2rem 0.2rem  black);
-   
-}
+    .jeremyImg
+    {
+        height: 100px;
+        width: 100px;
+        border: solid white 3px;
+        border-radius: 50%;
+        filter: drop-shadow(0 0.2rem 0.2rem  black);
+    
+    }
 
-.report h6
-{
-    font-size: 30px;
-    color: #BBC0FF;
-    font-weight: 400;
-}
+    .report h6
+    {
+        font-size: 30px;
+        color: #BBC0FF;
+        font-weight: 400;
+    }
 
 
-.options
-{
-    position: absolute;
-    left: 0%;
-    bottom: 5%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    color: #7078C9;
-}
+    .options
+    {
+        position: absolute;
+        left: 0%;
+        bottom: 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: #7078C9;
+    }
 
     
     .cardName
-{
-    font-family: rubikMedium;
-    font-size: 14px;
-    color: #FFFFFF;
-}
+    {
+        font-family: rubikMedium;
+        font-size: 14px;
+        color: #FFFFFF;
+        
+    }
 
     .profile
     {
@@ -583,11 +608,7 @@ padding: 2rem;
     
     }
 
-    .justifyEnd
-    {
-        display: flex;
-        justify-content: end;
-    }
+   
     
     #playTimeNow
     {
@@ -677,274 +698,270 @@ padding: 2rem;
 {
 
 
-body
-{
-    background-color: #0E1323;
-    display: grid;
-    grid-template-columns: 5% 90% 5%; 
-    grid-template-rows: 2rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 2rem;
-    row-gap: 1.5rem;
-    column-gap: 0;
-    min-height: 100vh;
-    min-width: 100%;
-}
+    body
+    {
+        background-color: #0E1323;
+        display: grid;
+        grid-template-columns: 5% 90% 5%; 
+        grid-template-rows: 2rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 2rem;
+        row-gap: 1.5rem;
+        column-gap: 0;
+        min-height: 100vh;
+        min-width: 100%;
+    }
 
-.report
-{
-display: flex;
-justify-content:space-evenly;
-border-radius: 15px;
-position: absolute;
-top: 0;
-height: 70%;
-width: 100%;
-background-color: #5747EA;
-padding: 2rem;
-}
+    .report
+    {
+        display: flex;
+        justify-content:space-evenly;
+        border-radius: 15px;
+        position: absolute;
+        top: 0;
+        height: 70%;
+        width: 100%;
+        background-color: #5747EA;
+        padding: 2rem;
+    }
 
-.reportFor
-{
-    position: absolute;
-    right: 5%;
-    top: 25%;
-}
+    .reportFor
+    {
+        position: absolute;
+        right: 5%;
+        top: 25%;
+    }
 
 
-.report h6
-{
-    font-size: 15px;
-    color: #BBC0FF;
-    font-weight: 400;
-}
+    .report h6
+    {
+        font-size: 15px;
+        color: #BBC0FF;
+        font-weight: 400;
+    }
 
-.report h2
-{
-    font-family: rubikLight;
-    font-size: 25px;
-    color: #FFFFFF;
-    font-weight:300 ;
+    .report h2
+    {
+        font-family: rubikLight;
+        font-size: 25px;
+        color: #FFFFFF;
+        font-weight:300 ;
+        
+    }
+
+    .jeremyImg
+    {
+        height: 64px;
+        width: 64px;
+        border: solid white 3px;
+        border-radius: 50%;
+        filter: drop-shadow(0 0.2rem 0.2rem  black);
+        position: absolute;
+        left: 10%;
     
-}
+    }
 
-.jeremyImg
-{
-    height: 64px;
-    width: 64px;
-    border: solid white 3px;
-    border-radius: 50%;
-    filter: drop-shadow(0 0.2rem 0.2rem  black);
-    position: absolute;
-    left: 10%;
-   
-}
+    .options
+    {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: #7078C9;
+    }
 
-.options
-{
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    color: #7078C9;
-}
-
-.profile
-{
-    background-color: #1C204B;
-    grid-row: 2;
-    grid-column: 2 ;
-    border-radius: 15px;
-    position: relative;
-    min-height: 0;
-}
+    .profile
+    {
+        background-color: #1C204B;
+        grid-row: 2;
+        grid-column: 2 ;
+        border-radius: 15px;
+        position: relative;
+        min-height: 0;
+    }
 
 
-.icon
-{
-    position: absolute;
-    top: -8%;
-}
+    .icon
+    {
+        position: absolute;
+        top: -8%;
+    }
 
 
-.cardContent
-{
-    position: absolute;
-    background-color: #1C204B;
-    width: 100%;
-    height: 80%;
-    border-radius: 14px;
-    bottom: 0;
-    right: 0;
-    
-}
+    .cardContent
+    {
+        position: absolute;
+        background-color: #1C204B;
+        width: 100%;
+        height: 80%;
+        border-radius: 14px;
+        bottom: 0;
+        right: 0;
+        
+    }
 
 
-.work
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 3;
-    background-color: #FF8B64;
-    border-radius: 15px;
-    
-}
+    .work
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 3;
+        background-color: #FF8B64;
+        border-radius: 15px;
+        
+    }
 
-.play
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 4;
-    background-color: #55C2E6;
-    border-radius: 15px;
-    
-}
-
-
-.study
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 5;
-    background-color: #FF5E7D;
-    border-radius: 15px; 
-}
-
-.exercise
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 6;
-    background-color: #4BCF82;
-    border-radius: 15px; 
-}
-
-.social
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 7;
-    background-color: #7335D2;
-    border-radius: 15px;
-}
-
-.selfCare
-{
-    position: relative;
-    grid-column: 2;
-    grid-row: 8;
-    background-color: #F1C75B;
-    border-radius: 15px;
-}
+    .play
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 4;
+        background-color: #55C2E6;
+        border-radius: 15px;
+        
+    }
 
 
-#workTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    .study
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 5;
+        background-color: #FF5E7D;
+        border-radius: 15px; 
+    }
 
-#workTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
-}
+    .exercise
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 6;
+        background-color: #4BCF82;
+        border-radius: 15px; 
+    }
+
+    .social
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 7;
+        background-color: #7335D2;
+        border-radius: 15px;
+    }
+
+    .selfCare
+    {
+        position: relative;
+        grid-column: 2;
+        grid-row: 8;
+        background-color: #F1C75B;
+        border-radius: 15px;
+    }
 
 
-#playTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    #workTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
 
-#playTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
+    #workTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
+    }
 
-}
 
-#studyTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    #playTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
 
-#studyTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
+    #playTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
 
-}
+    }
 
-#exerciseTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    #studyTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
 
-#exerciseTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
+    #studyTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
 
-}
+    }
 
-#socialTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    #exerciseTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
 
-#socialTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
+    #exerciseTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
 
-}
+    }
 
-#selfCareTimeNow
-{
-    font-size: 30px;
-    font-family: rubikLight;
-    color: #FFFFFF;
-    padding-left: 1rem;
-}
+    #socialTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
 
-#selfCareTimePast
-{
-    font-family: rubikRegular;
-    font-size: 15px;
-    color: #BBC0FF;
-    padding-right: 1.5rem;
+    #socialTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
 
-}
+    }
 
-.justifyEnd
-{
-    display: flex;
-    justify-content: end;
-}
+    #selfCareTimeNow
+    {
+        font-size: 30px;
+        font-family: rubikLight;
+        color: #FFFFFF;
+        padding-left: 1rem;
+    }
+
+    #selfCareTimePast
+    {
+        font-family: rubikRegular;
+        font-size: 15px;
+        color: #BBC0FF;
+        padding-right: 1.5rem;
+
+    }
+
+
 
 
 }

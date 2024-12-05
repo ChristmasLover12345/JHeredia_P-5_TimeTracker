@@ -1,4 +1,5 @@
-
+Challenge by: Frontend Mentor
+https://www.frontendmentor.io?ref=challenge
 
 
 Peer reviewed by: David Monterrosa
@@ -16,9 +17,9 @@ There are some issues with your code formatting.
 1. There is inconsistent use of indentation.
 
 2. The syles.css can be broken up into smaller files, to keep things organized.
-
+<!-- 3 has been fixed (I think, not sure if I missed some classes)-->
 3. You might possibly be recoding classes that bootstrap already has. For example in your styles.css you use a class called justifyEnd which seemingly does what justify-content-end does. Double check to see if you can replace some of these with bootstrap classes.
-
+<!-- No idea what 4 refers to, but I added some text center so it maybe doesnt happen anymore (fixed?) -->
 4. The use of position absolute seems to do more harm than good when it comes to responsiveness. This may be why some text gets pushed off the cards.
 <!-- 5 has been fixed -->
 5. Consider using semantic tags and comments to make your html more readable
