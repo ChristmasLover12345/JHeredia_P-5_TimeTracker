@@ -40,5 +40,5 @@ There are some issues with your code formatting.
 <!-- No idea what 4 refers to, but I added some text center so it maybe doesnt happen anymore (fixed?) -->
 4. The use of position absolute seems to do more harm than good when it comes to responsiveness. This may be why some text gets pushed off the cards.
 
-<!-- 5 has been fixed -->
+**5 has been fixed**
 5. Consider using semantic tags and comments to make your html more readable
