@@ -306,7 +306,7 @@ body
 
 
 /* height responsiveness on desktop */
-@media (min-height: 1100px) {
+@media (min-height: 1024px) {
     
 .longMargin
 {
