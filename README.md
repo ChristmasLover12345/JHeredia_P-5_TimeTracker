@@ -23,6 +23,7 @@ Overall the project meets the design specifications. All hover effects are prese
 <!-- I dont really know what he means by this but I added some height responsiveness just in case -->
 3. There are some minor spacing discrepencies. For example between the current time and the bottom of the card.
 
+<!-- 4 has been fixed, added some marging to line them up -->
 4. Some of the icon images are not placed accurately.
 
 There are some issues with your code formatting.
